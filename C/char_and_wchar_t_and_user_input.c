@@ -1,5 +1,6 @@
 /* tested on Windows machine */
 // resource: https://stackoverflow.com/questions/27401231/understanding-and-writing-wchar-t-in-c
+// UTF-8 table: https://www.utf8-chartable.de/
 
 #include <stdio.h>
 
