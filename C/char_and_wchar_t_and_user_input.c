@@ -1,3 +1,4 @@
+/* small experimentation regarding char, wchar_t and Unicode characters */
 /* tested on a Windows machine */
 
 /* related resources I found on the web:
@@ -14,6 +15,7 @@
 
 #include <stdio.h>
 #include <wchar.h>
+#include <locale.h>
 
 int main(void) {
 
@@ -43,12 +45,13 @@ int main(void) {
     wide_input_character = fgetc(stdin);
     fseek(stdin, 0, SEEK_END);
 
-    printf("WIDE_HARD_CODED_CHARACTER as %%lс=%lс\n", WIDE_HARD_CODED_CHARACTER);
+    setlocale(LC_CTYPE, "");
+    wprintf(L"WIDE_HARD_CODED_CHARACTER as %%lc=%lc\n", WIDE_HARD_CODED_CHARACTER);
     printf("WIDE_HARD_CODED_CHARACTER as %%d=%d\n", WIDE_HARD_CODED_CHARACTER);
     
     printf("wide_input_character as %%ls=%ls\n", wide_input_character);
     printf("wide_input_character as %%d=%d\n", wide_input_character);
-
+    
     return 0;
 
 }
