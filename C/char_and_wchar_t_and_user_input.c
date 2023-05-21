@@ -2,7 +2,13 @@
 
 /* related resources I found on the web:
     resource_1: https://stackoverflow.com/questions/27401231/understanding-and-writing-wchar-t-in-c
-    resource_2: https://www.utf8-chartable.de/
+    resource_2: https://stackoverflow.com/questions/26816547/whats-the-difference-between-printfs-printfls-wprintfs-and-wp
+    resource_3 https://stackoverflow.com/questions/73084516/c-printing-unicode-characters-gives-question-marks
+
+    ASCII, UTF, UNICODE tables
+    resource_4: https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
+    resource_5: https://www.utf8-chartable.de/
+    resource_6: https://www.ssec.wisc.edu/~tomw/java/unicode.html
 */
 
 
