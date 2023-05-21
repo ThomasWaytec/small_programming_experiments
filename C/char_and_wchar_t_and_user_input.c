@@ -1,9 +1,12 @@
-/* tested on Windows machine */
-// resource: https://stackoverflow.com/questions/27401231/understanding-and-writing-wchar-t-in-c
-// UTF-8 table: https://www.utf8-chartable.de/
+/* tested on a Windows machine */
+
+/* related resources I found on the web:
+    resource_1: https://stackoverflow.com/questions/27401231/understanding-and-writing-wchar-t-in-c
+    resource_2: https://www.utf8-chartable.de/
+*/
+
 
 #include <stdio.h>
-
 
 int main(void) {
 
